@@ -46,7 +46,22 @@ public abstract class PrincipalTrianguloRectangulo {
     public double getBase(){
         return base;        
     }
-    
+
+    /**
+     *
+     * @return
+     */
+    public double getArea(){
+        return area;        
+    }
+
+    /**
+     *
+     * @return
+     */
+    public double getPerimetro(){
+        return perimetro;        
+    }
     /**
      *
      * @return
@@ -65,7 +80,7 @@ public abstract class PrincipalTrianguloRectangulo {
      */
     public void resultado(){
         
-        System.out.println("La base de la figura es...: /n"+this.getBase());
-        System.out.println("La altura de la figura es...: "+this.getAltura());
+        System.out.println("El area de la figura es...: /n"+this.getArea());
+        System.out.println("La altura de la figura es...: "+this.getPerimetro());
     }
 }
